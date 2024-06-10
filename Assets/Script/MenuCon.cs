@@ -19,5 +19,10 @@ public class MenuCon : MonoBehaviour
         sound.Play();
         SceneManager.LoadScene(scene[1].name);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
     
 }
