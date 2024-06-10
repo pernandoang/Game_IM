@@ -9,8 +9,8 @@ public class MenuCon : MonoBehaviour
 {
     public SceneAsset[] scene;
     private AudioSource sound;
- 
-    private void Awake()
+
+    private void Start()
     {
         sound = GetComponent<AudioSource>();
     }
@@ -23,6 +23,7 @@ public class MenuCon : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        Debug.Log("Apk has quit");
     }
     
 }
