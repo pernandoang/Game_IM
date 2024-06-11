@@ -687,7 +687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &705767110
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1521,6 +1521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0469bbf524902cf4f983ba9790ca4b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 705767109}
   StartPosition:
   - {x: 417, y: -453}
   - {x: 818, y: -164}
@@ -1897,8 +1898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 294.1, y: -26}
-  m_SizeDelta: {x: 691.793, y: 221.423}
+  m_AnchoredPosition: {x: 254.3, y: -18.689}
+  m_SizeDelta: {x: 771.4, y: 221.423}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1383295849
 MonoBehaviour:
@@ -1920,7 +1921,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Healt Quest
+  m_text: Health Quest
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1cc7b94263a538e4ba558e16d88f4eca, type: 2}
   m_sharedMaterial: {fileID: -6701697764691388892, guid: 1cc7b94263a538e4ba558e16d88f4eca, type: 2}
