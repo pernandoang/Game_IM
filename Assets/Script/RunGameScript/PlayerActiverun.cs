@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class PlayerActive : MonoBehaviour
+public class PlayerActiverun : MonoBehaviour
 {
     public TextMeshProUGUI poin;
     public Vector2 Force;

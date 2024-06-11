@@ -4,13 +4,20 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
-public class mouseOvr : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
+public class mouseOvr : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler,IPointerClickHandler
 {
+    public SceneAsset scene;
     public GameObject[] obj;
     public Vector2[] StartPosition;
     public Vector2[] posisi;
     public RectTransform[] rect;
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        SceneManager.LoadScene(scene.name);
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
