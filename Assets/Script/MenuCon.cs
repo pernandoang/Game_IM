@@ -25,5 +25,4 @@ public class MenuCon : MonoBehaviour
         Application.Quit();
         Debug.Log("Apk has quit");
     }
-    
 }
